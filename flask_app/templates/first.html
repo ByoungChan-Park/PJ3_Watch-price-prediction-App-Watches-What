@@ -1,0 +1,71 @@
+<html>
+
+    <body bgcolor=#d3d3d3>
+
+        <center>
+
+        <h1 class="title"><span style="border-bottom: 7px solid rgb(205, 145, 253)"> &nbsp &nbsp &nbsp &nbsp &nbsp Watches What! &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</span></h1>
+        <img src='https://www.visualdive.com/wp-content/uploads/2021/07/%EC%9E%91%EC%97%85-1-819x1024.jpg' width="480", height="600"><br><br>
+        
+        <form method="POST", action="{{url_for('predict')}}">
+           <b> &nbsp &nbsp &nbsp &nbsp Brand :  <select name="a" style="width:200px">
+            <option value="">브랜드선택</option>
+            <option value="IWC">IWC</option>
+            <option value="글라슈테 오리지날">글라슈테 오리지날</option>
+            <option value="라도">라도</option>
+            <option value="론진">론진</option>
+            <option value="롤렉스">롤렉스</option>
+            <option value="루미녹스">루미녹스</option>
+            <option value="리차드밀">리차드밀</option>
+            <option value="미도">미도</option>
+            <option value="바쉐론 콘스탄틴">바쉐론 콘스탄틴</option>
+            <option value="브라이틀링">브라이틀링</option>
+            <option value="브레게">브레게</option>
+            <option value="블랑팡">블랑팡</option>
+            <option value="세이코">세이코</option>
+            <option value="아랑게운트죄네">아랑게운트죄네</option>
+            <option value="예거 르쿨트르">예거 르쿨트르</option>
+            <option value="오드마피게">오드마피게</option>
+            <option value="오리스">오리스</option>
+            <option value="오메가">오메가</option>
+            <option value="카시오">카시오</option>
+            <option value="태그호이어">태그호이어</option>
+            <option value="튜더">튜더</option>
+            <option value="파네라이">파네라이</option>
+            <option value="파텍필립">파텍필립</option>
+            <option value="피아제">피아제</option>
+            <option value="해밀턴">해밀턴</option>
+        </select> <br><br>
+
+            Component : <select name="b" style="width:200px">
+                <option value="">구성품선택</option>
+                <option value="정품 박스 있음, 서류 원본 있음">정품 박스 있음, 서류 원본 있음</option>
+                <option value="정품 박스 있음, 서류 원본 없음">정품 박스 있음, 서류 원본 없음</option>
+                <option value="정품 박스 없음, 서류 원본 있음">정품 박스 없음, 서류 원본 있음</option>
+                <option value="정품 박스 없음, 서류 원본 없음">정품 박스 없음, 서류 원본 없음</option>
+                <option value="정보없음">정보없음</option>
+            </select> <br><br>
+
+            &nbspMovement : <select name="c" style="width:200px">
+                <option value="">무브먼트선택</option>
+                <option value="수동감기">수동감기</option>
+                <option value="오토매틱">오토매틱</option>
+                <option value="쿼츠">쿼츠</option>
+                <option value="정보없음">정보없음</option>
+            </select> <br><br>
+
+            &nbsp &nbsp &nbsp &nbsp Glass : <select name="d" style="width: 200px">
+                <option value="">글라스선택</option>
+                <option value="미네랄 글라스">미네랄 글라스</option>
+                <option value="사파이어 글라스">사파이어 글라스</option>
+                <option value="플렉시 글라스">플렉시 글라스</option>
+                <option value="정보없음">정보없음</option>
+            </select> <br><br></b>
+            <input type="submit" , value='확인하기' style="width:310px">
+        </form>
+
+        
+    </center>
+
+    </body>
+</html>
