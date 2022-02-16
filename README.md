@@ -11,3 +11,5 @@ section3_modeling_pkling.ipynb : colab환경에서 작성한 모델링 및 피�
 selenium.py : 동적스크레이핑(selenium)을 실행했던 자료입니다.
 
 watch_raw_db.db : 동적스크레이핑으로 가져온 raw_database입니다.
+
+https://watcheswhat.herokuapp.com/ : 개발한 Web Application 배포링크입니다.
