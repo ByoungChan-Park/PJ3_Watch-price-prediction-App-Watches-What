@@ -14,4 +14,4 @@ watch_raw_db.db : 동적스크레이핑으로 가져온 raw_database입니다.
 
 https://watcheswhat.herokuapp.com/ : 개발한 Web Application 배포링크입니다.
 
-해당 프로젝트 밢료영상 주소 : https://youtu.be/qUTCi_H34k8
+발표영상 링크 : https://youtu.be/qUTCi_H34k8
