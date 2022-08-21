@@ -6,10 +6,10 @@ https://watcheswhat.herokuapp.com/
 #### 파일 설명
     flask_app : web app 제작에 쓰인 flask코드
     images : readme 첨부 사진모음
+    Procfile : 개발한 web app을 heroku로 배포하기 위한 코드
     modeling_pkling : 가격예측모델 개발 및 피클링
     pipeline : 데이터 적재를 위해 동적스크레이핑  
     　　　　　　(selenium)을 구현한 코드
-    Procfile : 개발한 web app을 heroku로 배포하기 위한 코드
     requirements : 작업에 사용된 라이브러리 버전 모음
     watch_raw_db : 동적스크레이핑을 통해 적재한 DB
 <br>
